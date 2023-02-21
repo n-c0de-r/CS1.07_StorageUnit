@@ -12,7 +12,7 @@ import org.junit.Test;
  */
 public class ShelfTest extends junit.framework.TestCase
 {
-    private Shelf shelf1,shelfN3;
+    private Shelf shelf1, shelf100, shelfN3;
     private Thing thing0, thing1, thing3,
             thing6, thing9, thing24, thingN3;
 
@@ -32,6 +32,7 @@ public class ShelfTest extends junit.framework.TestCase
     protected void setUp()
     {
         shelf1 = new Shelf(1);
+        shelf100 = new Shelf(100);
         shelfN3 = new Shelf(-3);
         thing0 = new Thing("empty", 0);
         thing1 = new Thing("A cup", 1);
@@ -234,6 +235,7 @@ public class ShelfTest extends junit.framework.TestCase
         
         assertNotEquals(-1, shelf1.getShelfNumber());
         assertNotNull(shelf1.getShelfNumber());
+        assertFalse(shelf100.getShelfNumber()>99);
     }
     
     /**

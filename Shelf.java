@@ -14,14 +14,14 @@ public class Shelf
                                 FINAL_THING_SPACE -
                                 START_OF_SHELF + 1;
     
-    // A shelf number within a particular storage unit. (1-366)
+    // A shelf number within a particular storage unit. (1-99)
     private int shelfNumber;
     // The current list of things for this shelf.
     private Thing[] things;
 
     /**
      * Constructor for objects of class Shelf.
-     * @param shelfNumber   The number of this shelf in the storage (1-366).
+     * @param shelfNumber   The number of this shelf in the storage (1-99).
      */
     public Shelf(int shelfNumber)
     {
