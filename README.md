@@ -4,9 +4,9 @@ Furthermore, it is a first stept to train Test Driven Design.
 
 Based on the original by David J. Barnes and Michael Kölling
 
-@author ruthWenzel & n-c0de-r
+@author n-c0de-r
 
-@version 2023.02.06
+@version 23.02.21
 
 Many test fail, showing that there are still some things to fix.
 ![GIF Of the JUnit testing](./JUinitTesting_show.gif)
