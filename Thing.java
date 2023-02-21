@@ -31,7 +31,7 @@ public class Thing
     }
     
     /**
-     * @return  The size (in hours) of the thing.
+     * @return  The size (in units) of the thing.
      */
     public int getSize()
     {
